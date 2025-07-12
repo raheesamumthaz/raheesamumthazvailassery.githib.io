@@ -1,71 +1,159 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Raheesa Mumthaz - Portfolio</title>
-        <style>
-            body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9f9f9; color: #333; }
-                header { background: #222; color: #fff; padding: 20px 40px; text-align: center; }
-                    section { padding: 40px; max-width: 1000px; margin: auto; }
-                        h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
-                            ul { list-style-type: square; margin-left: 20px; }
-                                .contact a { color: #0066cc; text-decoration: none; }
-                                    footer { background: #222; color: white; text-align: center; padding: 20px; }
-                                      </style>
-                                      </head>
-                                      <body>
-                                        <header>
-                                            <h1>Raheesa Mumthaz Vailassery</h1>
-                                                <p>Cloud-Native Backend Developer | AWS Serverless Expert | Node.js Specialist</p>
-                                                  </header>
-
-                                                    <section>
-                                                        <h2>About Me</h2>
-                                                            <p>I'm a backend developer with 7+ years of experience building event-driven, cloud-native applications using AWS, Node.js, and the MEAN stack. I specialize in serverless architecture, microservices, and mentoring developers to build scalable solutions.</p>
-                                                              </section>
-
-                                                                <section>
-                                                                    <h2>Technical Skills</h2>
-                                                                        <ul>
-                                                                              <li><strong>Cloud/AWS:</strong> Lambda, S3, Step Functions, AppFlow, EventBridge, SQS, API Gateway, SAM, CloudFormation</li>
-                                                                                    <li><strong>Languages:</strong> JavaScript, TypeScript, HTML5, ES6</li>
-                                                                                          <li><strong>Frameworks:</strong> Node.js, Angular, Express.js</li>
-                                                                                                <li><strong>Databases:</strong> MongoDB, DynamoDB, MySQL</li>
-                                                                                                      <li><strong>DevOps:</strong> CI/CD, Git, GitHub, GitLab</li>
-                                                                                                            <li><strong>Testing:</strong> Mocha, Chai, Sinon, Jest</li>
-                                                                                                                </ul>
-                                                                                                                  </section>
-
-                                                                                                                    <section>
-                                                                                                                        <h2>Experience</h2>
-                                                                                                                            <ul>
-                                                                                                                                  <li><strong>UST Global</strong> – Senior Backend Developer (Feb 2024 – Present)</li>
-                                                                                                                                        <li><strong>Capgemini</strong> – Senior Consultant (May 2021 – Jan 2024)</li>
-                                                                                                                                              <li><strong>Thomsun Infocare</strong> – Software Engineer (Aug 2020 – Apr 2021)</li>
-                                                                                                                                                    <li><strong>TCS</strong> – System Engineer (Nov 2017 – July 2020)</li>
-                                                                                                                                                        </ul>
-                                                                                                                                                          </section>
-
-                                                                                                                                                            <section>
-                                                                                                                                                                <h2>Certifications & Awards</h2>
-                                                                                                                                                                    <ul>
-                                                                                                                                                                          <li>AWS Certified Cloud Practitioner</li>
-                                                                                                                                                                                <li>Shining Star Award, UST Global (2024)</li>
-                                                                                                                                                                                      <li>Best Developer Award, Capgemini (2023)</li>
-                                                                                                                                                                                            <li>MEAN Stack & RESTful API (Udemy)</li>
-                                                                                                                                                                                                </ul>
-                                                                                                                                                                                                  </section>
-
-                                                                                                                                                                                                    <section class="contact">
-                                                                                                                                                                                                        <h2>Contact</h2>
-                                                                                                                                                                                                            <p><strong>Email:</strong> <a href="mailto:r4raheesamumthaz@gmail.com">r4raheesamumthaz@gmail.com</a></p>
-                                                                                                                                                                                                                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/raheesa-mumthaz" target="_blank">linkedin.com/in/raheesa-mumthaz</a></p>
-                                                                                                                                                                                                                    <p><strong>Location:</strong> Kerala, India</p>
-                                                                                                                                                                                                                      </section>
-
-                                                                                                                                                                                                                        <footer>
-                                                                                                                                                                                                                            <p>&copy; 2025 Raheesa Mumthaz Vailassery</p>
-                                                                                                                                                                                                                              </footer>
-                                                                                                                                                                                                                              </body>
-                                                                                                                                                                                                                              </html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raheesa Mumthaz - Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #444;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    .skills i {
+      margin-right: 8px;
+      color: #667eea;
+    }
+    .job {
+      margin-bottom: 25px;
+    }
+    .job-title {
+      font-weight: bold;
+    }
+    .job-company {
+      font-style: italic;
+    }
+    .contact a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .job ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Raheesa Mumthaz Vailassery</h1>
+    <p>Cloud-Native Backend Developer | AWS Serverless Expert | Node.js Specialist</p>
+  </header>  <section>
+    <h2>About Me</h2>
+    <p>I’m a backend developer with over 7 years of experience building scalable, event-driven, cloud-native applications using AWS, Node.js, and the MEAN stack. I specialize in serverless architecture and mentoring developers to build maintainable, efficient solutions.</p>
+  </section>  <section class="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><i class="fa-brands fa-aws"></i> AWS: Lambda, S3, Step Functions, AppFlow, API Gateway, SQS, EventBridge, SAM</li>
+      <li><i class="fa-brands fa-js"></i> Languages: JavaScript, TypeScript, HTML5, ES6</li>
+      <li><i class="fa-brands fa-node-js"></i> Frameworks: Node.js, Angular, Express.js</li>
+      <li><i class="fa-solid fa-database"></i> Databases: MongoDB, DynamoDB, MySQL</li>
+      <li><i class="fa-solid fa-tools"></i> DevOps: CI/CD, Git, GitHub, GitLab</li>
+      <li><i class="fa-solid fa-vial"></i> Testing: Mocha, Chai, Sinon, Jest</li>
+    </ul>
+  </section>  <section>
+    <h2>Experience</h2>
+    <div class="job">
+      <div class="job-title">Senior Backend Developer</div>
+      <div class="job-company">UST Global, Kochi | Feb 2024 – Present</div>
+      <ul>
+        <li>Architected and developed serverless applications using AWS Lambda, SAM, and Node.js microservices.</li>
+        <li>Designed and implemented complex workflows using AWS Step Functions, EventBridge, and AppFlow.</li>
+        <li>Optimized cloud resource utilization across AWS services including Lambda, S3, SQS, and API Gateway.</li>
+        <li>Led backend development initiatives with a focus on serverless architecture and cloud-native solutions.</li>
+        <li>Implemented best practices for AWS resource management and security using Auth0.</li>
+        <li>Developed and maintained infrastructure as code using AWS SAM and the Serverless Framework.</li>
+        <li>Conducted internal training sessions for new team members on Node.js development and serverless architecture.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <div class="job-title">Senior Consultant</div>
+      <div class="job-company">Capgemini, Bangalore | May 2021 – Jan 2024</div>
+      <ul>
+        <li>Led an 8-member development team, achieving 95% customer satisfaction through AWS Serverless implementation.</li>
+        <li>Developed a reusable NPM package utilized across multiple enterprise projects for client.</li>
+        <li>Implemented CI/CD pipeline improving deployment efficiency and code quality.</li>
+        <li>Architected and developed scalable applications using Node.js, Angular, and AWS Lambda.</li>
+        <li>Mentored 12 new hires on technical skills and best practices, conducting regular code reviews.</li>
+        <li>Spearheaded user research initiatives to drive product development decisions.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <div class="job-title">Software Engineer</div>
+      <div class="job-company">Thomsun Infocare, Kochi | Aug 2020 – Apr 2021</div>
+      <ul>
+        <li>Developed responsive financial web application using Angular and Node.js.</li>
+        <li>Implemented complex calculations and reusable components improving application performance.</li>
+        <li>Created and integrated RESTful APIs ensuring seamless frontend-backend communication.</li>
+        <li>Collaborated with UX/UI team to implement user-friendly interfaces.</li>
+        <li>Implemented secure authentication and authorization mechanisms.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <div class="job-title">System Engineer</div>
+      <div class="job-company">Tata Consultancy Services, Kochi | Nov 2017 – Jul 2020</div>
+      <ul>
+        <li>Built full-stack web applications using MEAN stack (MongoDB, Express.js, Angular, Node.js).</li>
+        <li>Designed and implemented RESTful APIs optimizing system performance.</li>
+        <li>Collaborated with cross-functional teams to deliver high-quality solutions.</li>
+        <li>Created comprehensive technical documentation and system designs.</li>
+        <li>Managed remote collaboration using various communication tools.</li>
+      </ul>
+    </div>
+  </section>  <section>
+    <h2>Certifications & Achievements</h2>
+    <ul>
+      <li>AWS Certified Cloud Practitioner</li>
+      <li>Angular and Node.js – MEAN Stack Guide (Udemy)</li>
+      <li>Node.js RESTful API Masterclass (Udemy)</li>
+      <li>Shining Star Award, UST (2024)</li>
+      <li>Best Developer Award, Capgemini (2023)</li>
+    </ul>
+  </section>  <section class="contact">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> <a href="mailto:r4raheesamumthaz@gmail.com">r4raheesamumthaz@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/raheesa-mumthaz" target="_blank">linkedin.com/in/raheesa-mumthaz</a></p>
+    <p><strong>Location:</strong> Kerala, India</p>
+  </section>  <footer>
+    <p>&copy; 2025 Raheesa Mumthaz Vailassery</p>
+  </footer>
+</body>
+</html>
